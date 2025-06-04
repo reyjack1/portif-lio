@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luan | Portfólio</title>
+  <!-- Importa o arquivo CSS principal do site -->
+  <link rel="stylesheet" href="style-index.css" />
+  <link rel="icon" href="img/favicon.ico" />
+</head>
+<body>
+  <!-- Cabeçalho principal com imagem de fundo e navegação -->
+  <header class="heroi">
+    <!-- Barra de navegação principal do topo -->
+    <nav class="barra-navegacao">
+      <ul>
+        <!-- Links para as seções da página e currículo -->
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="curriculo.pdf" target="_blank" rel="noopener">Curriculo</a></li>
+      </ul>
+    </nav>
+    <!-- Conteúdo central do cabeçalho (nome e frase de efeito) -->
+    <div class="conteudo-heroi">
+      <h1>Luan Barbosa | Portfólio</h1>
+      <p>Codar, Criar e Conquistar.</p>
+    </div>
+  </header>
+
+  <!-- Seção 'Sobre Mim' com informações profissionais e formação -->
+  <section id="sobre" class="secao sobre">
+    <div class="linha-animada"></div>
+    <h2>Sobre Mim</h2>
+    <p>
+      <!-- Breve apresentação sobre o objetivo profissional -->
+      Gostaria de atuar como desenvolvedor em projetos de tecnologia, aplicando habilidades em front-end, lógica de programação e estruturação de sistemas para entregar soluções modernas, eficientes e funcionais.
+    </p>
+    <h4>Resumo Profissional</h4>
+    <p>
+      <!-- Experiência profissional resumida -->
+      Profissional de T.I com experiência sólida em suporte técnico no setor de RMA e análise de sistemas embarcados e dispositivos conectados. Atuando há mais de 3 anos na multinacional WDC Networks, desenvolveu visão estratégica sobre arquitetura de sistemas, integração de equipamentos e atendimento técnico especializado.
+    </p>
+    <h4>Competências Técnicas</h4>
+    <!-- Lista de habilidades técnicas -->
+    <ul>
+      <li>HTML, CSS, JavaScript – Nível intermediário</li>
+      <li>PHP – Nível básico</li>
+      <li>Front-end - Nível básico</li>
+      <li>Lógica de programação</li>
+      <li>Git e GitHub</li>
+      <li>APIs e estrutura web</li>
+      <li>Sistemas embarcados</li>
+      <li>Linux (terminal, permissões)</li>
+      <li>Leitura técnica em inglês</li>
+    </ul>
+    <h4>Formação Acadêmica</h4>
+    <!-- Lista de cursos e formações -->
+    <ul>
+      <li>Faculdade Análise e Desenvolvimento de Sistemas – FECAF</li>
+      <li>HTML, CSS e JavaScript – Danki Code</li>
+      <li>Segurança da Informação – Bruno FragaX</li>
+      <li>Manutenção e Montagem de Micro – SENAC</li>
+    </ul>
+  </section>
+
+  <!-- Seção de projetos em destaque no portfólio -->
+  <section id="projetos" class="secao projetos">
+    <div class="linha-animada"></div>
+    <h2>Meus Projetos</h2>
+    <!-- Breve introdução sobre os projetos -->
+    <p class="projetos-intro">Arraste para o lado e confira alguns dos meus trabalhos e explore as tecnologias que utilizei.</p>
+
+    <!-- Carrossel horizontal dos projetos -->
+    <div class="carrossel-projetos touch-scroll" tabindex="0">
+      <!-- Botão para rolar o carrossel para a esquerda (aparece só no desktop) -->
+      <button class="carrossel-nav carrossel-prev" aria-label="Projetos anteriores">&lt;</button>
+      <!-- Lista horizontal dos cards de projetos -->
+      <div class="lista-projetos">
+
+
+        <!-- Card do Projeto 1 -->
+        <div class="projeto">
+          <a href="https://calico-dog-6be.notion.site/1ff9ed4df77280ebbf13f08d89b710f5?v=1ff9ed4df77281c5ab6a000c71a3618e&pvs=4" target="_blank" class="projeto-link-principal">
+            <img src="img/banco.png" alt="Miniatura do Projeto X" class="projeto-imagem" />
+            <h3>Banco de Dados de Gestão</h3>
+          </a>
+          <p class="projeto-descricao">
+            Um banco de Dados que desenvolvi com a ferramenta Notion para melhor gestão de cada processo dentro do trabalho.
+          </p>
+          <!-- Tecnologias utilizadas -->
+          <div class="projeto-tecnologias">
+            <span>Notion</span>
+          </div>
+          <!-- Botões para demo e código -->
+          <div class="projeto-botoes">
+            <a href="https://calico-dog-6be.notion.site/1ff9ed4df77280ebbf13f08d89b710f5?v=1ff9ed4df77281c5ab6a000c71a3618e&pvs=4" target="_blank" class="botao-demo">Ver Demo</a>
+            <a href="https://github.com/seu-usuario/projeto1-repo" target="_blank" class="botao-codigo" id="codigo-banco">Ver Código</a>
+          </div>
+        </div>
+        <!-- Card do Projeto 2 -->
+        <div class="projeto">
+          <a href="https://reyjack1.github.io/gerador-email-2.0/index.html" target="_blank" class="projeto-link-principal">
+            <img src="img/email.png" alt="Miniatura do Projeto Y" class="projeto-imagem" />
+            <h3>Gerador de Email automatizado</h3>
+          </a>
+          <p class="projeto-descricao">
+            Criei um gerador de Email para construir rapidamente emails usados no trabalho.
+          </p>
+          <div class="projeto-tecnologias">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>jQuery</span>
+          </div>
+          <div class="projeto-botoes">
+            <a href="https://reyjack1.github.io/gerador-email-2.0/index.html" target="_blank" class="botao-demo">Ver Demo</a>
+            <a href="https://github.com/reyjack1/gerador-email-2.0.git" target="_blank" class="botao-codigo">Ver Código</a>
+          </div>
+        </div>
+        <!-- Card do Projeto 3 -->
+        <div class="projeto">
+          <a href="https://seulink.com/projeto3-demo" target="_blank" class="projeto-link-principal">
+            <img src="img/portifolio.png" alt="Miniatura do Projeto Z" class="projeto-imagem" />
+            <h3>Portfólio</h3>
+          </a>
+          <p class="projeto-descricao">
+            Esse portfólio tem aplicado conhecimentos de front-end e UI modernas.
+          </p>
+          <div class="projeto-tecnologias">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>jQuery</span>
+          </div>
+          <div class="projeto-botoes">
+            <a href="#" target="_blank" class="botao-demo">Ver Demo</a>
+            <a href="https://github.com/reyjack1/portif-lio.git" target="_blank" class="botao-codigo">Ver Código</a>
+          </div>
+        </div>
+
+        <!-- Card do Projeto 4 -->
+        <div class="projeto">
+          <a href="https://reyjack1.github.io/EvolutionTechnology/" target="_blank" class="projeto-link-principal">
+            <img src="img/empresa.png" alt="Miniatura do Projeto Z" class="projeto-imagem" />
+            <h3>Site Comercial</h3>
+          </a>
+          <p class="projeto-descricao">
+            Criei um site comercial de técnologia para uma empresa ficitícia com abas como blog, projetos, contatos e etc.
+          </p>
+          <div class="projeto-tecnologias">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>jQuery</span>
+          </div>
+          <div class="projeto-botoes">
+            <a href="https://reyjack1.github.io/EvolutionTechnology/" target="_blank" class="botao-demo">Ver Demo</a>
+            <a href="https://github.com/reyjack1/EvolutionTechnology.git" target="_blank" class="botao-codigo">Ver Código</a>
+          </div>
+        </div>
+
+        <div class="projeto">
+          <a href="https://drive.google.com/drive/folders/1Nqi8ycSToC04MXWkxhDuuum7xtrVFF8n?usp=drive_link" target="_blank" class="projeto-link-principal">
+            <img src="img/htdocs.png" alt="Miniatura do Projeto X" class="projeto-imagem" />
+            <h3>Explorador de diretório XAMPP</h3>
+          </a>
+          <p class="projeto-descricao">
+            Para facilitar a navegação e criação de pastas dentro do servidor xampp criei um explorador que é intuitivo e agiliza o processo do dia a dia dando mais comodidade de guardar projetos em servidor. (Como tem que incluir no servidor localhost na Demo terá imagens para fácilitar a inclusão)
+          </p>
+          <!-- Tecnologias utilizadas -->
+          <div class="projeto-tecnologias">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>PHP</span>
+          </div>
+          <!-- Botões para demo e código -->
+          <div class="projeto-botoes">
+            <a href="https://drive.google.com/drive/folders/1Nqi8ycSToC04MXWkxhDuuum7xtrVFF8n?usp=drive_link" target="_blank" class="botao-demo">Ver Demo</a>
+            <a href="https://github.com/reyjack1/navega-o-htdocs.git" target="_blank" class="botao-codigo" id="codigo-banco">Ver Código</a>
+          </div>
+        </div>
+
+        <!-- Card "Em breve" para futuros projetos -->
+        <div class="projeto projeto-em-breve">
+          <!-- Banner indicando novidade -->
+          <div class="projeto-banner-novo">
+            <span>✨ Em breve</span>
+          </div>
+          <!-- Mensagem de aviso para novos projetos -->
+          <div class="projeto-mensagem-breve">
+            <h3>Novos Projetos em Breve</h3>
+            <p>Fique ligado! Em breve novos projetos serão adicionados.<br></p>
+            <div class="em-breve-icone">🚧</div>
+          </div>
+        </div>
+        <!-- Adicione mais projetos aqui se quiser -->
+      </div>
+      <!-- Botão para rolar o carrossel para a direita (aparece só no desktop) -->
+      <button class="carrossel-nav carrossel-next" aria-label="Próximos projetos">&gt;</button>
+    </div>
+  </section>
+
+  <!-- Seção de contato com informações para networking -->
+  <section id="contato" class="secao contato">
+    <h2>Contato</h2>
+    <p>Email: luanbar01@gmail.com</p>
+    <a href="https://www.linkedin.com/in/luan-barbosa-012604211/"><p>Acessar meu LinkedIn</p></a>
+    <p>"acesse o curriculo para mais informações"</p>
+
+    <!-- Botão para baixar o currículo (recomenda-se usar <a> ao invés de <button> para links externos) -->
+    <button class="botao-futurista">
+      <a href="curriculo.pdf" target="_blank" rel="noopener" class="botao-futurista">
+        <span>Currículo</span>
+      </a>
+    </button>
+  </section>
+
+  <!-- Rodapé do site -->
+  <footer>
+    <p>&copy; 2025 Luan Barbosa. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Importa o jQuery antes do JS do site -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Importa os scripts customizados para interatividade -->
+  <script src="js/scripts.js"></script>
+</body>
+</html>
